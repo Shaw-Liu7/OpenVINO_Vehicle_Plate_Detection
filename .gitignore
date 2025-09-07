@@ -1,0 +1,45 @@
+# Windows 临时文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ----------------------------
+# Visual Studio / CMake
+# ----------------------------
+# CMake 构建目录
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+/*.cbp
+/*.sln
+/*.vcxproj*
+*.user
+*.VC.db
+*.VC.opendb
+*.log
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.lib
+*.dll
+*.exp
+
+# ----------------------------
+# OpenCV / OpenVINO
+# ----------------------------
+# 模型、数据和缓存可以选择性忽略
+# 如果你已经手动放置 models 文件夹，可以保留 models
+# *.xml
+# *.bin
+# videos 文件夹一般上传示例视频，可保留
+
+# ----------------------------
+# 临时文件和日志
+# ----------------------------
+*.tmp
+*.temp
+*.log
+*.DS_Store
